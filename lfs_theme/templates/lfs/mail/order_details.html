@@ -275,6 +275,7 @@
             {{ order.price|currency }}
         </td>
     </tr>
+    {% comment %}
     <tr>
         <td colspan="5"
             class="number tax">
@@ -282,6 +283,7 @@
             {{ order.tax|currency }}
         </td>
     </tr>
+    {% endcomment %}
 </table>
 {% if order.message %}
     <table class="order-message">

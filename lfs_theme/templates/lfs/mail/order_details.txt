@@ -56,7 +56,7 @@
 {% trans 'Payment method' %}: {{ order.payment_price|currency }} ({{ order.payment_method }})
 
 {% trans ' Total' %}: {{ order.price|currency }}
-{% trans 'Inclusive VAT' %}: {{ order.tax|currency }}
+{# % trans 'Inclusive VAT' %}: {{ order.tax|currency } #}
 
 {% if order.message %} {% trans 'Message' %}
 ==============================================================================
