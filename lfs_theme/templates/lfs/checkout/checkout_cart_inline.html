@@ -31,9 +31,11 @@
             <th class="number">
                 {% trans 'Net Price' %}
             </th>
+            {% comment %}
             <th class="number">
                 {% trans 'VAT' %}
             </th>
+            {% endcomment %}
             <th class="number">
                 {% trans 'Total' %}
             </th>
@@ -66,9 +68,11 @@
                 <td class="number">
                     {{ cart_item.product_price_net|currency:request}}
                 </td>
+                {% comment %}
                 <td class="number">
                     {{ cart_item.product_tax|currency:request}}
                 </td>
+                {% endcomment %}
                 <td class="number">
                     {{ cart_item.product_price_gross|currency:request}}
                 </td>
@@ -88,11 +92,13 @@
                 <td class="number">
                     - {{ discount.price_net|currency:request}}
                 </td>
+                {% comment %}
                 <td class="number">
                     {% if discount.tax %}
                         (- {{ discount.tax|currency:request}})
                     {% endif %}
                 </td>
+                {% endcomment %}
                 <td class="number">
                     - {{ discount.price_gross|currency:request}}
                 </td>
@@ -112,9 +118,11 @@
                 <td class="number">
                     - {{ voucher_value|currency:request}}
                 </td>
+                {% comment %}
                 <td class="number">
                     ({{ voucher_tax|currency:request}})
                 </td>
+                {% endcomment %}
                 <td class="number">
                     - {{ voucher_value|currency:request}}
                 </td>
@@ -133,9 +141,11 @@
             <td class="number">
                 {{ shipping_costs.price_net|currency:request}}
             </td>
+            {% comment %}
             <td class="number">
                 {{ shipping_costs.tax|currency:request}}
             </td>
+            {% endcomment %}
             <td class="number">
                 {{ shipping_costs.price_gross|currency:request}}
             </td>
@@ -149,11 +159,11 @@
             <td class="number">
                 1
             </td>
-            <td></td>
+            <td></td> 
             <td class="number">
                 {{ payment_price|currency:request}}
             </td>
-            <td></td>
+            {# <td></td> #}
             <td class="number">
                 {{ payment_price|currency:request}}
             </td>
@@ -167,6 +177,7 @@
                 {{ cart_price|currency:request}}
             </td>
         </tr>
+        {% comment %}
         <tr>
             <td colspan="7"
                 class="discreet number">
@@ -174,5 +185,6 @@
                 {{ cart_tax|currency:request}}
             </td>
         </tr>
+        {% endcomment %}
     </tfoot>
 </table>

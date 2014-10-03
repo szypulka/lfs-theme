@@ -11,9 +11,11 @@
             <th class="number">
                 {% trans 'Net Price' %}
             </th>
+            {% comment %}
             <th class="number">
                 {% trans 'VAT' %}
             </th>
+            {% endcomment %}
             <th class="number last">
                 {% trans 'Total' %}
             </th>
@@ -42,9 +44,11 @@
                 <td class="number">
                     {{ cart_item.product_price_net|currency:request}}
                 </td>
+                {% comment %}
                 <td class="number">
                     {{ cart_item.product_tax|currency:request}}
                 </td>
+                {% endcomment %}
                 <td class="number last">
                     {{ cart_item.product_price_gross|currency:request}}
                 </td>
