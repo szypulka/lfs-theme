@@ -39,7 +39,7 @@
                             {% trans "Starting at" %}
                         {% endif %}
                         {% if product.obj.get_for_sale %}
-                           <span class="for-sale-standard-price">{{ standard_price|currency:request }}*</span>
+                           <span class="for-sale-standard-price">{{ standard_price|currency:request }}</span>
                            <span class="for-sale-price">{{ price|currency:request }}*</span>
                         {% else %}
                             <span class="standard-price">{{ price|currency:request }}*</span>
