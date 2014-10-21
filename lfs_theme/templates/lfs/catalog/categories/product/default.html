@@ -63,6 +63,7 @@
                                 {% endif %}
                             </div>
                         {% endif %}
+                        {% comment %}
                         <div class="price-disclaimer">
                             {% if product.price_includes_tax %}
                                 {% trans '*inc. VAT' %}
@@ -70,6 +71,7 @@
                                 {% trans '*exc. VAT' %}
                             {% endif %}
                         </div>
+                        {% endcomment %}
                     </div>
                     <div class="details-button">
                         <a class="button emphasized"
