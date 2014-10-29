@@ -89,7 +89,6 @@ msgid "Added to cart"
 msgstr "Добавлено в корзину"
 
 #: templates/lfs/cart/added_to_cart.html:13
-#, fuzzy
 msgid "This product has been added to cart"
 msgid_plural "These products have been added to cart"
 msgstr[0] "Этот товар был добавлен в корзину"
@@ -334,9 +333,8 @@ msgid "*exc. VAT"
 msgstr "* без НДС"
 
 #: templates/lfs/catalog/categories/product/products_navigation.html:6
-#, fuzzy
 msgid "First page"
-msgstr "Следующая страница"
+msgstr "Первая страница"
 
 #: templates/lfs/catalog/categories/product/products_navigation.html:11
 #: templates/pagination/pagination.html:5
@@ -351,13 +349,12 @@ msgid "Next page"
 msgstr "Следующая страница"
 
 #: templates/lfs/catalog/categories/product/products_navigation.html:31
-#, fuzzy
 msgid "Last page"
-msgstr "Следующая страница"
+msgstr "Последняя страница"
 
 #: templates/lfs/catalog/products/product_inline.html:185
 msgid "Add to cart"
-msgstr "В корзину"
+msgstr "Добавить в корзину"
 
 #: templates/lfs/catalog/products/product_inline.html:195
 msgid "Send request"
@@ -385,13 +382,13 @@ msgstr "Рассчитываться не за что"
 
 #: templates/lfs/checkout/login.html:16 templates/lfs/customer/login.html:16
 msgid "Please select!"
-msgstr "Пожалуйста выберите!"
+msgstr "Пожалуйста, выберите!"
 
 #: templates/lfs/checkout/login.html:23
 msgid ""
 "If you are already customer you can login. Your adress data will then "
 "already known."
-msgstr "Вы можете войти, если покупали у нас ранее. Ваш адрес будет заполнен."
+msgstr "Вы можете войти, если уже регистрировались. Ваш адрес будет заполнен."
 
 #: templates/lfs/checkout/login.html:47 templates/lfs/customer/login.html:47
 msgid "Forgot password?"
@@ -407,7 +404,7 @@ msgid ""
 "If you are not already a customer you can register in order to store your "
 "address data and to follow the state of your orders."
 msgstr ""
-"Если вы не являетесь нашим клиентом, вы можете зарегистрироваться для "
+"Если вы ещё не зарегистрировались, вы можете сделать это для "
 "удобства последующих покупок и отслеживания заказов."
 
 #: templates/lfs/checkout/login.html:88
@@ -416,7 +413,6 @@ msgstr "Вы также можете рассчитаться без регис�
 
 #: templates/lfs/checkout/one_page_checkout.html:17
 #: templates/lfs/customer/addresses.html:19
-#, fuzzy
 msgid ""
 "The operation could not be performed because one or more errors occurred. "
 "Please see below."
@@ -476,7 +472,7 @@ msgstr "Вы получите подтверждение заказа по эл�
 
 #: templates/lfs/checkout/thank_you_page.html:21
 msgid "Please use the following link if you want to pay now"
-msgstr "Если хотите оплатить сейчас, нажмите данную ссылку"
+msgstr "Если хотите оплатить заказ сейчас, нажмите данную ссылку"
 
 #: templates/lfs/checkout/thank_you_page.html:25
 msgid "Pay"
@@ -495,11 +491,11 @@ msgstr "Форма связи"
 
 #: templates/lfs/contact/contact_form.html:11
 msgid "Contact"
-msgstr "Контакт"
+msgstr "Контакты"
 
 #: templates/lfs/contact/contact_form.html:18
 msgid "Please leave us a message. We will answer as soon as possible."
-msgstr "Вы можете оставить сообщение. Мы ответим при первой возможности."
+msgstr "Оставьте сообщение. Мы ответим при первой возможности."
 
 #: templates/lfs/contact/contact_form.html:29
 #: templates/reviews/review_form.html:117
@@ -512,7 +508,7 @@ msgstr "Спасибо за обращение"
 
 #: templates/lfs/contact/contact_form_sent.html:14
 msgid "Thank you for your message. We will get back to you soon."
-msgstr "Спасибо за внимание. Мы скоро с вами свяжемся."
+msgstr "Спасибо за сообщение. Мы скоро с вами свяжемся."
 
 #: templates/lfs/customer/account.html:7
 msgid "Your Account"
@@ -527,7 +523,7 @@ msgid ""
 "Welcome to your account. Here you can find your orders, you can change your "
 "addresses, email address and your password."
 msgstr ""
-"Добро пожаловать в ваш аккаунт. Здесь вы можете найти свои заявки, изменить "
+"Добро пожаловать в ваш аккаунт. Здесь вы можете найти свои заказы, изменить "
 "данные для доставки и пароль доступа."
 
 #: templates/lfs/customer/addresses.html:5
@@ -621,7 +617,7 @@ msgid ""
 "If you are already customer you can login. Your address data will be stored "
 "in your account."
 msgstr ""
-"Вы можете войти, если покупали у нас ранее. Ваши адресные данные будут "
+"Вы можете войти, если уже зарегистрированы у нас. Ваши адресные данные будут "
 "храниться в вашей учетной записи."
 
 #: templates/lfs/customer/order.html:5 templates/lfs/customer/order.html:11
@@ -630,7 +626,6 @@ msgid "Order"
 msgstr "Заказ"
 
 #: templates/lfs/customer/order.html:15
-#, fuzzy
 msgid "Order number:"
 msgstr "Номер заказа:"
 
@@ -659,7 +654,7 @@ msgstr "Фильтр"
 #: templates/lfs/mail/order_details.html:17
 #: templates/lfs/mail/order_details.txt:8
 msgid "Number"
-msgstr ""
+msgstr "Номер"
 
 #: templates/lfs/customer/orders.html:44
 #: templates/lfs/mail/order_details.html:31
@@ -680,7 +675,7 @@ msgstr "Состояние"
 #: templates/lfs/mail/order_details.txt:9
 #: templates/lfs/order/lfs_order_tmpl.html:22
 msgid "DATETIME_FORMAT"
-msgstr "Y-m-d H:i:s"
+msgstr "Формат даты/времени"
 
 #: templates/lfs/customer/orders.html:75
 msgid "There are no orders for this time range."
@@ -723,13 +718,12 @@ msgstr "Добро пожаловать в"
 #: templates/lfs/mail/new_user_mail.html:9
 #: templates/lfs/mail/new_user_mail.txt:4
 msgid "Thank you for registering"
-msgstr ""
+msgstr "Спасибо за то, что зарегистрировались!"
 
 #: templates/lfs/mail/new_user_mail.html:12
 #: templates/lfs/mail/new_user_mail.txt:5
-#, fuzzy
 msgid "Your username"
-msgstr "Ваше имя"
+msgstr "Ваш логин"
 
 #: templates/lfs/mail/order_details.html:6
 #: templates/lfs/mail/order_details.txt:2
@@ -782,10 +776,9 @@ msgstr "Артикул"
 
 #: templates/lfs/mail/order_details.html:293
 msgid "Your message to us"
-msgstr "Ваше сообщение нам"
+msgstr "Дополнительная информация"
 
 #: templates/lfs/mail/order_details.txt:58
-#, fuzzy
 msgid " Total"
 msgstr "Итого"
 
@@ -799,41 +792,35 @@ msgstr "Сообщение"
 #: templates/lfs/mail/order_received_mail.txt:2
 #: templates/lfs/mail/order_sent_mail.html:8
 #: templates/lfs/mail/order_sent_mail.txt:2
-#, fuzzy, python-format
 msgid "Dear %(firstname)s %(lastname)s"
-msgstr "Добрый день, %(firstname)s %(lastname)s"
+msgstr "Привет, %(firstname)s %(lastname)s"
 
 #: templates/lfs/mail/order_paid_mail.html:11
 #: templates/lfs/mail/order_paid_mail.txt:3
-#, fuzzy
 msgid "your order has been paid."
-msgstr "ваш заказ был оплачен"
+msgstr "ваш заказ оплачен."
 
 #: templates/lfs/mail/order_paid_subject.txt:1
-#, fuzzy
 msgid "Your order has been paid."
-msgstr "Ваш заказ оплачен"
+msgstr "Ваш заказ оплачен."
 
 #: templates/lfs/mail/order_received_mail.html:11
 #: templates/lfs/mail/order_received_mail.txt:4
-#, fuzzy
 msgid "your order has been received."
-msgstr "Ваш заказ получен"
+msgstr "мы получили ваш заказ."
 
 #: templates/lfs/mail/order_received_subject.txt:1
-#, fuzzy
 msgid "Your order has been received"
-msgstr "Ваш заказ получен"
+msgstr "Мы получили ваш заказ"
 
 #: templates/lfs/mail/order_sent_mail.html:11
 #: templates/lfs/mail/order_sent_mail.txt:4
-#, fuzzy
 msgid "your order has been sent."
-msgstr "Ваш заказ отправлен"
+msgstr "Ваш заказ передан в доставку."
 
 #: templates/lfs/mail/order_sent_subject.txt:1
 msgid "Your order has been sent"
-msgstr "Ваш заказ отправлен"
+msgstr "Ваш заказ передан в доставку"
 
 #: templates/lfs/mail/review_added_mail.html:17
 #: templates/lfs/mail/review_added_mail.txt:6
@@ -912,9 +899,11 @@ msgstr[2] "%(amount)s мнениям"
 #, fuzzy, python-format
 msgid "%(amount)s Article"
 msgid_plural "%(amount)s Articles"
-msgstr[0] "%(amount)s мнению"
-msgstr[1] "%(amount)s мнениям"
-msgstr[2] "%(amount)s мнениям"
+msgstr[0] "%(amount)s товар"
+msgstr[1] "%(amount)s товара"
+msgstr[2] "%(amount)s товара"
+msgstr[3] "%(amount)s товара"
+msgstr[4] "%(amount)s товаров"
 
 #: templates/lfs/portlets/cart.html:26
 msgid "Cart is empty"
@@ -996,8 +985,11 @@ msgstr "Вы искали"
 msgid "1 product was found."
 msgid_plural "%(counter)s products were found."
 msgstr[0] "Был найден %(counter)s товар."
-msgstr[1] "Было найдено %(counter)s товаров."
-msgstr[2] "Было найдено %(counter)s товаров."
+msgstr[1] "Было найдено %(counter)s товара."
+msgstr[2] "Было найдено %(counter)s товара."
+msgstr[3] "Было найдено %(counter)s товара."
+msgstr[4] "Было найдено %(counter)s товаров."
+
 
 #: templates/registration/password_reset_complete.html:4
 #: templates/registration/password_reset_complete.html:22
@@ -1049,12 +1041,11 @@ msgid "Password reset unsuccessful"
 msgstr "Не удалось сбросить пароль"
 
 #: templates/registration/password_reset_confirm.html:58
-#, fuzzy
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
-"Неверная ссылка на сброс пароля, возможно ей уже воспользовались.Пройдите "
+"Неверная ссылка на сброс пароля, возможно, ей уже воспользовались.Пройдите "
 "процедуру заново."
 
 #: templates/registration/password_reset_done.html:4
@@ -1067,12 +1058,11 @@ msgid ""
 "We've e-mailed you instructions for setting your password to the e-mail "
 "address you submitted. You should be receiving it shortly."
 msgstr ""
-"На ваш e-mail отправлены указания о том, как задать пароль для входа. Вскоре "
-"вы должны их получить."
+"На ваш e-mail отправлены указания о том, как задать пароль для входа."
 
 #: templates/registration/password_reset_email.html:2
 msgid "You're receiving this e-mail because you requested a password reset"
-msgstr "Это письмо отправлено вам по запросу сброса пароля"
+msgstr "Это письмо отправлено вам, потому что вы запросили сброс пароля"
 
 #: templates/registration/password_reset_email.html:3
 #, python-format
@@ -1085,7 +1075,7 @@ msgstr "Перейдите на следующую страницу и выбе�
 
 #: templates/registration/password_reset_email.html:9
 msgid "Your username, in case you've forgotten:"
-msgstr "Ваше имя пользователя:"
+msgstr "Ваше имя пользователя (вдруг вы его забыли):"
 
 #: templates/registration/password_reset_email.html:11
 msgid "Thanks for using our site!"
@@ -1101,7 +1091,7 @@ msgid ""
 "Enter your e-mail address below, and we'll e-mail instructions for setting a "
 "new one."
 msgstr ""
-"Введите ваш адрес e-mail, и мы вышлем вам письмо, в котором будет указано, "
+"Введите ваш адрес e-mail и мы отправим вам письмо с инструкцией, "
 "как сменить пароль."
 
 #: templates/registration/password_reset_form.html:35
