@@ -909,12 +909,12 @@ msgstr[1] "%(amount)s мнениям"
 msgstr[2] "%(amount)s мнениям"
 
 #: templates/lfs/portlets/cart.html:20
-#, fuzzy, python-format
+#, python-format
 msgid "%(amount)s Article"
 msgid_plural "%(amount)s Articles"
-msgstr[0] "%(amount)s мнению"
-msgstr[1] "%(amount)s мнениям"
-msgstr[2] "%(amount)s мнениям"
+msgstr[0] "%(amount)s товар"
+msgstr[1] "%(amount)s тов."
+msgstr[2] "%(amount)s тов."
 
 #: templates/lfs/portlets/cart.html:26
 msgid "Cart is empty"
