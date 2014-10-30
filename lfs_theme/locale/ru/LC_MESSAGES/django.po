@@ -89,12 +89,11 @@ msgid "Added to cart"
 msgstr "Добавлено в корзину"
 
 #: templates/lfs/cart/added_to_cart.html:13
-#, fuzzy
 msgid "This product has been added to cart"
 msgid_plural "These products have been added to cart"
 msgstr[0] "Этот товар был добавлен в корзину"
-msgstr[1] "Этот товар был добавлен в корзину"
-msgstr[2] "Этот товар был добавлен в корзину"
+msgstr[1] "Эти товары были добавлены в корзину"
+msgstr[2] "Эти товары были добавлены в корзину"
 
 #: templates/lfs/cart/added_to_cart.html:20
 #: templates/lfs/catalog/products/product_inline.html:302
@@ -334,9 +333,8 @@ msgid "*exc. VAT"
 msgstr "* без НДС"
 
 #: templates/lfs/catalog/categories/product/products_navigation.html:6
-#, fuzzy
 msgid "First page"
-msgstr "Следующая страница"
+msgstr "Первая страница"
 
 #: templates/lfs/catalog/categories/product/products_navigation.html:11
 #: templates/pagination/pagination.html:5
@@ -351,9 +349,8 @@ msgid "Next page"
 msgstr "Следующая страница"
 
 #: templates/lfs/catalog/categories/product/products_navigation.html:31
-#, fuzzy
 msgid "Last page"
-msgstr "Следующая страница"
+msgstr "Последняя страница"
 
 #: templates/lfs/catalog/products/product_inline.html:185
 msgid "Add to cart"
@@ -416,7 +413,6 @@ msgstr "Вы также можете рассчитаться без регис�
 
 #: templates/lfs/checkout/one_page_checkout.html:17
 #: templates/lfs/customer/addresses.html:19
-#, fuzzy
 msgid ""
 "The operation could not be performed because one or more errors occurred. "
 "Please see below."
@@ -630,7 +626,6 @@ msgid "Order"
 msgstr "Заказ"
 
 #: templates/lfs/customer/order.html:15
-#, fuzzy
 msgid "Order number:"
 msgstr "Номер заказа:"
 
@@ -723,13 +718,12 @@ msgstr "Добро пожаловать в"
 #: templates/lfs/mail/new_user_mail.html:9
 #: templates/lfs/mail/new_user_mail.txt:4
 msgid "Thank you for registering"
-msgstr ""
+msgstr "Спасибо за то, что зарегистрировались в нашем магазине!"
 
 #: templates/lfs/mail/new_user_mail.html:12
 #: templates/lfs/mail/new_user_mail.txt:5
-#, fuzzy
 msgid "Your username"
-msgstr "Ваше имя"
+msgstr "Ваш логин"
 
 #: templates/lfs/mail/order_details.html:6
 #: templates/lfs/mail/order_details.txt:2
@@ -785,7 +779,6 @@ msgid "Your message to us"
 msgstr "Ваше сообщение нам"
 
 #: templates/lfs/mail/order_details.txt:58
-#, fuzzy
 msgid " Total"
 msgstr "Итого"
 
@@ -799,37 +792,32 @@ msgstr "Сообщение"
 #: templates/lfs/mail/order_received_mail.txt:2
 #: templates/lfs/mail/order_sent_mail.html:8
 #: templates/lfs/mail/order_sent_mail.txt:2
-#, fuzzy, python-format
+#, python-format
 msgid "Dear %(firstname)s %(lastname)s"
-msgstr "Добрый день, %(firstname)s %(lastname)s"
+msgstr "Привет, %(firstname)s %(lastname)s"
 
 #: templates/lfs/mail/order_paid_mail.html:11
 #: templates/lfs/mail/order_paid_mail.txt:3
-#, fuzzy
 msgid "your order has been paid."
-msgstr "ваш заказ был оплачен"
+msgstr "ваш заказ был оплачен."
 
 #: templates/lfs/mail/order_paid_subject.txt:1
-#, fuzzy
 msgid "Your order has been paid."
-msgstr "Ваш заказ оплачен"
+msgstr "Ваш заказ оплачен."
 
 #: templates/lfs/mail/order_received_mail.html:11
 #: templates/lfs/mail/order_received_mail.txt:4
-#, fuzzy
 msgid "your order has been received."
-msgstr "Ваш заказ получен"
+msgstr "мы получили ваш заказ."
 
 #: templates/lfs/mail/order_received_subject.txt:1
-#, fuzzy
 msgid "Your order has been received"
-msgstr "Ваш заказ получен"
+msgstr "Мы получили ваш заказ"
 
 #: templates/lfs/mail/order_sent_mail.html:11
 #: templates/lfs/mail/order_sent_mail.txt:4
-#, fuzzy
 msgid "your order has been sent."
-msgstr "Ваш заказ отправлен"
+msgstr "Ваш заказ отправлен."
 
 #: templates/lfs/mail/order_sent_subject.txt:1
 msgid "Your order has been sent"
@@ -868,12 +856,12 @@ msgid "Manufacturers"
 msgstr "Производители"
 
 #: templates/lfs/manufacturers/manufacturers.html:29
-#, fuzzy, python-format
+#, python-format
 msgid "%(counter)s product"
 msgid_plural "%(counter)s products"
 msgstr[0] "Предыдущий товар"
-msgstr[1] "Предыдущий товар"
-msgstr[2] "Предыдущий товар"
+msgstr[1] "Предыдущие товары"
+msgstr[2] "Предыдущие товары"
 
 #: templates/lfs/order/lfs_order_tmpl.html:115
 #: templates/lfs/search/search_results.html:49
@@ -1049,7 +1037,6 @@ msgid "Password reset unsuccessful"
 msgstr "Не удалось сбросить пароль"
 
 #: templates/registration/password_reset_confirm.html:58
-#, fuzzy
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
@@ -1067,12 +1054,12 @@ msgid ""
 "We've e-mailed you instructions for setting your password to the e-mail "
 "address you submitted. You should be receiving it shortly."
 msgstr ""
-"На ваш e-mail отправлены указания о том, как задать пароль для входа. Вскоре "
-"вы должны их получить."
+"На ваш e-mail отправлено письмо с инструкцией, как задать пароль для входа. Вскоре "
+"вы должны его получить."
 
 #: templates/registration/password_reset_email.html:2
 msgid "You're receiving this e-mail because you requested a password reset"
-msgstr "Это письмо отправлено вам по запросу сброса пароля"
+msgstr "Это письмо отправлено вам, потому что вы запросили сброс пароля"
 
 #: templates/registration/password_reset_email.html:3
 #, python-format
@@ -1085,7 +1072,7 @@ msgstr "Перейдите на следующую страницу и выбе�
 
 #: templates/registration/password_reset_email.html:9
 msgid "Your username, in case you've forgotten:"
-msgstr "Ваше имя пользователя:"
+msgstr "Ваш логин (вдруг вы его забыли):"
 
 #: templates/registration/password_reset_email.html:11
 msgid "Thanks for using our site!"
@@ -1101,7 +1088,7 @@ msgid ""
 "Enter your e-mail address below, and we'll e-mail instructions for setting a "
 "new one."
 msgstr ""
-"Введите ваш адрес e-mail, и мы вышлем вам письмо, в котором будет указано, "
+"Введите ваш адрес e-mail, и мы вышлем вам письмо с инструкцией,"
 "как сменить пароль."
 
 #: templates/registration/password_reset_form.html:35
