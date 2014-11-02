@@ -65,9 +65,10 @@
         <th>
             {% trans 'Shipping address' %}
         </th>
+        {% comment %}
         <th>
             {% trans 'Invoice address' %}
-        </th>
+        </th> {% endcomment %}
         <th>
             {% trans 'Shipping method' %}
         </th>
@@ -109,6 +110,7 @@
                 </div>
             {% endwith %}
         </td>
+        {% comment %}
         <td>
             {% with order.invoice_address as ia %}
                 <div>
@@ -141,7 +143,7 @@
                     {{ ia.email|default_if_none:"" }}
                 </div>
             {% endwith %}
-        </td>
+        </td> {% endcomment %}
         <td>
             <div>
                 {{ order.shipping_method }}
